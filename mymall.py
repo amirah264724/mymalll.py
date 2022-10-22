@@ -5,10 +5,10 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 st.header("mall customer")
-st.write(pd.DataFrame({
-    'Intplan': ['yes', 'yes', 'yes', 'no'],
-    'Churn Status': [0, 0, 0, 1]
-})
+# st.write(pd.DataFrame({
+#     'Intplan': ['yes', 'yes', 'yes', 'no'],
+#     'Churn Status': [0, 0, 0, 1]
+# })
 mc = pd.read_csv('mall_customer.csv')
 mc.head()
 mc.tail()
