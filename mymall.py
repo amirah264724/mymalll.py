@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+st.header("mall customer")
 mc = pd.read_csv('mall_customer.csv')
 mc.head()
 mc.tail()
