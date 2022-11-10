@@ -1,4 +1,4 @@
-import sklearn as sl
+import sklearn as sklearn
 import streamlit as st
 import numpy as np
 import pandas as pd
